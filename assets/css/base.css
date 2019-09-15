@@ -1,0 +1,32 @@
+:root {
+  --main-bg-color: pink;
+  text-align: center;
+}
+
+background-color: var(--main-bg-color);
+.h2 {
+  text-transform: uppercase;
+  object-fit: contain;
+  font-family: TitilliumWeb;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.Home-About {
+  width: 416px;
+  height: 13px;
+  object-fit: contain;
+  font-family: TitilliumWeb;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--color-white);
+}
