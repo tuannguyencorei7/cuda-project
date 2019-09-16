@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-header {
+.welcome-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,12 +29,14 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   text-emphasis: bold;
-  font-size: 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
 }
 
 li a:hover {
-  background-color: #fff;
-  color: #87509c;
+  transition: all 0.5s;
+  transform: scale(1.5);
 }
 .logo {
   width: 118px;
@@ -80,6 +82,7 @@ p {
 .welcome-button {
   width: 293px;
   height: 70px;
+  color: #fff;
   background-color: #eb7d4b;
   margin: 50px;
   font-family: TitilliumWeb;
@@ -88,4 +91,46 @@ p {
   line-height: 1.54;
   letter-spacing: 0.35px;
   border: 0;
+}
+
+.services-section {
+  background-color: #17c2a4;
+  width: 1440px;
+  height: 747px;
+}
+.services-header {
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  color: #fff;
+}
+
+.services-h1 {
+  font-family: TitilliumWeb;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 0.75;
+  letter-spacing: 4px;
+}
+
+.line {
+  width: 87px;
+  height: 4px;
+  opacity: 10%;
+  background-color: #111;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.services-text {
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.36px;
+
+  text-align: center;
 }
