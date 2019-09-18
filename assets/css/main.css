@@ -150,3 +150,30 @@ p {
 .skill-text {
   color: #3c4761;
 }
+.warpped-skill {
+  margin: 100px 0 0 0;
+  padding: 0 1% 0 1%;
+  display: inline-block;
+  width: 20%;
+}
+
+.x-1 {
+  --value: 90%;
+  background-image: conic-gradient(#30bae7 var(--value), #dfe8ed var(--value));
+}
+.x-2 {
+  --value: 75%;
+  background-image: conic-gradient(#d74680 var(--value), #dfe8ed var(--value));
+}
+.x-3 {
+  --value: 70%;
+  background-image: conic-gradient(#15c7a8 var(--value), #dfe8ed var(--value));
+}
+.x-4 {
+  --value: 85%;
+  background-image: conic-gradient(#eb7d4b var(--value), #dfe8ed var(--value));
+}
+.skill-img-title {
+  color: #3c4761;
+  text-emphasis-style: bold;
+}

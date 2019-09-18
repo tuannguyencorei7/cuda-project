@@ -98,3 +98,39 @@ background-color: var(--main-bg-color);
   justify-content: center;
   justify-content: center;
 }
+
+/* ________________________________________________________________ */
+:root {
+  --size: 160px;
+  --bord: 25px;
+}
+
+.chart {
+  width: var(--size);
+  height: var(--size);
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - var(--bord));
+  height: calc(100% - var(--bord));
+  background: white;
+  border-radius: inherit;
+}
+
+.percent {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  color: #3c4761;
+}
