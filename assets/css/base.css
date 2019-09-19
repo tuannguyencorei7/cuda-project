@@ -34,7 +34,7 @@ background-color: var(--main-bg-color);
 .section-header {
   text-align: center;
   align-items: center;
-  padding: 30px 10%;
+  padding: 5% 10%;
   position: relative;
   top: 23%;
   left: 50%;
@@ -47,13 +47,16 @@ background-color: var(--main-bg-color);
   font-weight: bold;
   line-height: 0.75;
   letter-spacing: 4px;
+  margin: auto;
+  border: auto;
+  padding: 3% 0 3% 0;
 }
 .line {
   width: 87px;
   height: 4px;
   opacity: 0.2;
   background-color: #111;
-  margin: 20px 0px 20px 0px;
+  margin: 0 0px 0px 0px;
   border: 0;
   padding: 0;
   display: inline-block;
@@ -68,7 +71,7 @@ background-color: var(--main-bg-color);
 }
 
 .warpped-img {
-  margin: 200px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 0 1% 0 1%;
   display: inline-block;
   width: 20%;
