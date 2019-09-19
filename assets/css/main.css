@@ -64,10 +64,8 @@ body {
   margin: 0;
   border: 0;
 }
-p {
-  padding: 0;
-  margin: 0;
-  border: 0;
+.welcome-button {
+  background-color: #eb7d4b;
 }
 .welcome-text {
   object-fit: contain;
@@ -76,11 +74,10 @@ p {
   line-height: 1.15;
   color: #f7f3ea;
 }
-.welcome-button {
+.section-button {
   width: 293px;
   height: 70px;
   color: #fff;
-  background-color: #eb7d4b;
   margin: 50px;
   font-family: "Times New Roman", "Times", "serif";
   font-size: 17.5px;
@@ -151,7 +148,7 @@ p {
   color: #3c4761;
 }
 .warpped-skill {
-  margin: 100px 0 0 0;
+  margin: auto;
   padding: 0 1% 0 1%;
   display: inline-block;
   width: 20%;
@@ -195,7 +192,7 @@ p {
 
 .warpped-portfolio-buttons {
   display: block;
-  margin-top: 10%;
+  margin-top: 3%;
   width: 100%;
 }
 .portfolio-buttons {
@@ -207,4 +204,22 @@ p {
   color: #333;
   background-color: rgba(51, 51, 51, 0.3);
   text-decoration: none;
+}
+.section-detail {
+  width: 100%;
+  top: 4%;
+}
+.warpped-portfolio-img {
+  display: inline-block;
+  color: #393939;
+  font-weight: bold;
+  font-size: 17px;
+}
+.portfolio-img {
+  width: 541px;
+  height: 311px;
+  margin: 40px 10px 0 10px;
+}
+.portfolio-button {
+  background-color: #17c2a4;
 }
