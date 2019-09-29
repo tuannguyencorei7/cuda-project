@@ -3,19 +3,6 @@
   text-align: center;
 }
 
-background-color: var(--main-bg-color);
-.h2 {
-  text-transform: uppercase;
-  object-fit: contain;
-  font-family: TitilliumWeb;
-  font-size: 40px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: center;
-  color: var(--color-white);
-}
-
 .Home-About {
   width: 416px;
   height: 13px;
@@ -50,6 +37,17 @@ background-color: var(--main-bg-color);
   margin: auto;
   border: auto;
   padding: 3% 0 3% 0;
+}
+.h2 {
+  text-transform: uppercase;
+  object-fit: contain;
+  font-family: TitilliumWeb;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: var(--color-white);
 }
 .line {
   width: 87px;
