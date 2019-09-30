@@ -74,18 +74,6 @@ body {
   line-height: 1.15;
   color: #f7f3ea;
 }
-.section-button {
-  width: 293px;
-  height: 70px;
-  color: #fff;
-  margin: 50px;
-  font-family: "Times New Roman", "Times", "serif";
-  font-size: 17.5px;
-  font-weight: 600;
-  line-height: 1.54;
-  letter-spacing: 0.35px;
-  border: 0;
-}
 
 .services-section {
   background-color: #17c2a4;

@@ -68,6 +68,19 @@
   text-align: center;
 }
 
+.section-button {
+  width: 293px;
+  height: 70px;
+  color: #fff;
+  margin: 50px;
+  font-family: "Times New Roman", "Times", "serif";
+  font-size: 17.5px;
+  font-weight: 600;
+  line-height: 1.54;
+  letter-spacing: 0.35px;
+  border: 0;
+}
+
 .warpped-img {
   margin: 50px 0 0 0;
   padding: 0 1% 0 1%;
