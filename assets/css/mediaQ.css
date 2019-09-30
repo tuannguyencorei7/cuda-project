@@ -178,7 +178,41 @@
     image-rendering: auto;
     height: 80px;
   }
+
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-emphasis: bold;
+    font-size: 17px;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+
+  .welcome-text {
+    object-fit: contain;
+    font-family: "Times New Roman", "Times", "serif";
+    font-size: 27px;
+    line-height: 1.15;
+    color: #f7f3ea;
+  }
+
+  .section-button {
+    width: 203px;
+    height: 50px;
+    color: #fff;
+    margin: 50px;
+    font-family: "Times New Roman", "Times", "serif";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.54;
+    letter-spacing: 0.35px;
+    border: 0;
+  }
 }
+
 @media only screen and (max-width: 480px) {
   /*your CSS Rules*/
 }
